@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR. OMAR ISMAIL ALKHOURY</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #1a73e8, #4285f4);
+            color: white;
+            padding: 50px 0;
+            font-size: 36px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin: 0;
+            font-size: 50px;
+            animation: fadeInDown 2s ease-in-out;
+        }
+        section {
+            margin: 40px;
+        }
+        h2 {
+            color: #1a73e8;
+            margin-bottom: 20px;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            font-size: 22px;
+            color: #4285f4;
+        }
+        .card-content p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .card-content a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #4285f4;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .card-content a:hover {
+            background-color: #1a73e8;
+        }
+        footer {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px;
+            font-size: 18px;
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DR. OMAR ISMAIL ALKHOURY</h1>
+    </header>
+
+    <section>
+        <h2>فيديوهاتي التعليمية</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Video Thumbnail">
+                <div class="card-content">
+                    <h3>فيديو 1</h3>
+                    <p>شرح تفصيلي حول موضوع علمي.</p>
+                    <a href="https://www.youtube.com/" target="_blank">شاهد الآن</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Video Thumbnail">
+                <div class="card-content">
+                    <h3>فيديو 2</h3>
+                    <p>محاضرة علمية حول التقنيات الحديثة.</p>
+                    <a href="https://www.youtube.com/" target="_blank">شاهد الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>مقالاتي العلمية</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Article Thumbnail">
+                <div class="card-content">
+                    <h3>المقالة 1</h3>
+                    <p>مقالة تحليلية حول آخر الأبحاث العلمية.</p>
+                    <a href="article1.pdf" target="_blank">اقرأ الآن</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Article Thumbnail">
+                <div class="card-content">
+                    <h3>المقالة 2</h3>
+                    <p>نظرة شاملة على التطورات العلمية في الفيزياء.</p>
+                    <a href="article2.pdf" target="_blank">اقرأ الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>كتبي العلمية</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Book Thumbnail">
+                <div class="card-content">
+                    <h3>الكتاب 1</h3>
+                    <p>دراسة شاملة حول الابتكارات العلمية.</p>
+                    <a href="book1.pdf" target="_blank">اقرأ الآن</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Book Thumbnail">
+                <div class="card-content">
+                    <h3>الكتاب 2</h3>
+                    <p>كتاب يتناول الأبحاث الحديثة في العلوم.</p>
+                    <a href="book2.pdf" target="_blank">اقرأ الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 DR. OMAR ISMAIL ALKHOURY | جميع الحقوق محفوظة
+    </footer>
+
+</body>
+</html>
